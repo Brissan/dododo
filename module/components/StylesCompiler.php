@@ -54,6 +54,6 @@ class StylesCompiler extends Component
     }
     private function getBasePath()
     {
-        return Yii::getAlias('@app/extensions/DefaultTheme/assets/theme');
+        return Yii::getAlias('@app/web/theme/module/assets/theme');
     }
 }
