@@ -170,7 +170,7 @@ abstract class BaseWidget extends Widget
      */
     protected function getThemeModule()
     {
-        //return Yii::$app->getModule('DefaultTheme');
+        return Yii::$app->getModule('DefaultTheme');
     }
 
     /**
