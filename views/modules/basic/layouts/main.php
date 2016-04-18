@@ -5,13 +5,11 @@
  * @var $this \app\components\WebView
  */
 
-use app\web\theme\module\assets\DefaultThemeAsset;
 use app\web\theme\module\models\ThemeParts;
 use app\web\theme\module\assets\ThemeAsset;
 use app\modules\seo\helpers\HtmlTagHelper;
 use yii\helpers\Html;
 
-DefaultThemeAsset::register($this);
 ThemeAsset::register($this);
 HtmlTagHelper::addTagOptions('html', 'lang', Yii::$app->language);
 ?>
