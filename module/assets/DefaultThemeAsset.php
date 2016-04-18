@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 class DefaultThemeAsset extends AssetBundle
 {
 
-    public $sourcePath = '@app/web/theme/module/assets/theme';
+    public $sourcePath = '@app/extensions/DefaultTheme/assets/theme';
     public $css = [
         //'css/default-theme.css'
     ];
