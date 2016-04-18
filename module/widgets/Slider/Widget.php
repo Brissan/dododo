@@ -24,7 +24,7 @@ class Widget extends BaseWidget
 
      
         if ($this->inContainer) {
-            $slider = "<div class=\"container\"><div class=\"row\"><div class=\"col-md-12\">$slider</div></div></div>";
+            $slider = $slider;
         }
 
         return $slider;
