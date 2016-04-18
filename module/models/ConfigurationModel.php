@@ -1,9 +1,9 @@
 <?php
 
-namespace app\web\theme\models;
+namespace app\web\theme\module\models;
 
 use app;
-use app\web\theme\components\StylesCompiler;
+use app\web\theme\module\components\StylesCompiler;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\UploadedFile;
@@ -59,7 +59,7 @@ class ConfigurationModel extends app\models\BaseThemeConfigurationModel
      */
     public function defaultValues()
     {
-        /** @var app\web\theme\Module $module */
+        /** @var app\web\theme\module\Module $module */
         $module = Yii::$app->modules['DefaultTheme'];
 
         $attributes = array_keys($this->getAttributes(null, ['logotypeFile']));

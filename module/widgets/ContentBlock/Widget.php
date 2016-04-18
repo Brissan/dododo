@@ -1,9 +1,9 @@
 <?php
 
 
-namespace app\web\theme\widgets\ContentBlock;
+namespace app\web\theme\module\widgets\ContentBlock;
 
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 use app\modules\core\helpers\ContentBlockHelper;
 
 class Widget extends BaseWidget

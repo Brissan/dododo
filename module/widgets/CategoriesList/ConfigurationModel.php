@@ -1,8 +1,8 @@
 <?php
 
-namespace app\web\theme\widgets\CategoriesList;
+namespace app\web\theme\module\widgets\CategoriesList;
 
-use app\web\theme\models\WidgetConfigurationModel;
+use app\web\theme\module\models\WidgetConfigurationModel;
 
 class ConfigurationModel extends WidgetConfigurationModel
 {

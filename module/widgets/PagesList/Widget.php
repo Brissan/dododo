@@ -1,9 +1,9 @@
 <?php
 
-namespace app\web\theme\widgets\PagesList;
+namespace app\web\theme\module\widgets\PagesList;
 
 use app\modules\page\models\Page;
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 use devgroup\TagDependencyHelper\ActiveRecordHelper;
 use yii\caching\TagDependency;
 

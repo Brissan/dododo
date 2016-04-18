@@ -1,12 +1,12 @@
 <?php
 
-namespace app\web\theme;
+namespace app\web\theme\module;
 
-use app\web\theme\ThemeModule;
+use app\web\theme\module\ThemeModule;
 
 /**
  * Default Theme module
- * @package app\web\theme
+ * @package app\web\theme\module
  */
 class Module extends ThemeModule
 {
@@ -18,7 +18,7 @@ class Module extends ThemeModule
     public $primaryEmail = 'noreply@dotplant.ru';
 
     public $controllerMap = [
-        'backend-configuration' => 'app\web\theme\backend\ConfigurationController',
+        'backend-configuration' => 'app\web\theme\module\backend\ConfigurationController',
     ];
 
     /**
@@ -26,7 +26,7 @@ class Module extends ThemeModule
      */
     public function themeClassName()
     {
-        return 'app\web\theme\components\Theme';
+        return 'app\web\theme\module\components\Theme';
     }
 
     /**
@@ -37,8 +37,8 @@ class Module extends ThemeModule
         return [
             'configurableModule' => [
                 'class' => 'app\modules\config\behaviors\ConfigurableModuleBehavior',
-                'configurationView' => '@app/web/theme/views/configurable/_config',
-                'configurableModel' => 'app\web\theme\models\ConfigurationModel',
+                'configurationView' => '@app/web/theme/module/views/configurable/_config',
+                'configurableModel' => 'app\web\theme\module\models\ConfigurationModel',
             ]
         ];
     }

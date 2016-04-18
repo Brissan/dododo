@@ -1,6 +1,6 @@
 <?php
 
-namespace app\web\theme\models;
+namespace app\web\theme\module\models;
 
 use app\traits\IdentityMap;
 use app\traits\SortModels;

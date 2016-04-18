@@ -1,8 +1,8 @@
 <?php
 
-namespace app\web\theme\widgets\FilterSets;
+namespace app\web\theme\module\widgets\FilterSets;
 
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 use app\models\Property;
 use app\models\PropertyStaticValues;
 use app\modules\shop\models\FilterSets;

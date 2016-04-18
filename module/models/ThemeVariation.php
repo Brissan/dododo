@@ -1,8 +1,8 @@
 <?php
 
-namespace app\web\theme\models;
+namespace app\web\theme\module\models;
 
-use app\web\theme\components\VariationMatcher;
+use app\web\theme\module\components\VariationMatcher;
 use app\traits\IdentityMap;
 use Yii;
 use \devgroup\TagDependencyHelper\ActiveRecordHelper;

@@ -5,7 +5,7 @@ use yii\helpers\Url;
 use kartik\icons\Icon;
 /** @var app\components\WebView $this */
 /** @var bool $useFontAwesome */
-/** @var \app\web\theme\Module $theme */
+/** @var \app\web\theme\module\Module $theme */
 /** @var integer $rootNavigationId */
 ?>
 

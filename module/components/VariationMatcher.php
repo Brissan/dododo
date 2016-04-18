@@ -1,8 +1,8 @@
 <?php
 
-namespace app\web\theme\components;
+namespace app\web\theme\module\components;
 
-use app\web\theme\models\ThemeVariation;
+use app\web\theme\module\models\ThemeVariation;
 use devgroup\TagDependencyHelper\ActiveRecordHelper;
 use Yii;
 use yii\caching\TagDependency;

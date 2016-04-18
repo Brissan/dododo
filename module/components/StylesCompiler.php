@@ -1,6 +1,6 @@
 <?php
 
-namespace app\web\theme\components;
+namespace app\web\theme\module\components;
 
 use Leafo\ScssPhp\Compiler;
 use Yii;

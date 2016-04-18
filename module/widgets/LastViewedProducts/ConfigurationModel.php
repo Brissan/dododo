@@ -1,8 +1,8 @@
 <?php
 
-namespace app\web\theme\widgets\LastViewedProducts;
+namespace app\web\theme\module\widgets\LastViewedProducts;
 
-use app\web\theme\models\WidgetConfigurationModel;
+use app\web\theme\module\models\WidgetConfigurationModel;
 
 class ConfigurationModel extends WidgetConfigurationModel
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace app\web\theme\models;
+namespace app\web\theme\module\models;
 
 use app\components\ViewElementsGathener;
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 use app\traits\IdentityMap;
 use Yii;
 use yii\base\InvalidConfigException;

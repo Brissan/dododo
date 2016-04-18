@@ -10,7 +10,7 @@ use app\modules\shop\models\Wishlist;
  */
 /** @var bool $collapseOnSmallScreen */
 /** @var bool $useFontAwesome */
-/** @var \app\web\theme\Module $theme */
+/** @var \app\web\theme\module\Module $theme */
 
 $mainCurrency = \app\modules\shop\models\Currency::getMainCurrency();
 if (is_null($order)) {

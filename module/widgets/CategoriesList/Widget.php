@@ -1,9 +1,9 @@
 <?php
 
-namespace app\web\theme\widgets\CategoriesList;
+namespace app\web\theme\module\widgets\CategoriesList;
 
 use Yii;
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 
 class Widget extends BaseWidget
 {

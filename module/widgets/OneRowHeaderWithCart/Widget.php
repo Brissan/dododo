@@ -1,10 +1,10 @@
 <?php
 
-namespace app\web\theme\widgets\OneRowHeaderWithCart;
+namespace app\web\theme\module\widgets\OneRowHeaderWithCart;
 
 use Yii;
-use app\web\theme\assets\BootstrapHoverDropdown;
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\assets\BootstrapHoverDropdown;
+use app\web\theme\module\components\BaseWidget;
 use app\modules\shop\models\Order;
 use yii\helpers\ArrayHelper;
 

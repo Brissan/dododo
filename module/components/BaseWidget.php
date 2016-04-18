@@ -1,10 +1,10 @@
 <?php
 
-namespace app\web\theme\components;
+namespace app\web\theme\module\components;
 
 use app\components\ViewElementsGathener;
-use app\web\theme\models\ThemeActiveWidgets;
-use app\web\theme\models\ThemeWidgets;
+use app\web\theme\module\models\ThemeActiveWidgets;
+use app\web\theme\module\models\ThemeWidgets;
 use devgroup\TagDependencyHelper\ActiveRecordHelper;
 use Yii;
 use yii\base\InvalidConfigException;
@@ -15,7 +15,7 @@ use yii\helpers\Json;
 /**
  * Class BaseWidget is the base class for all theme widgets implementations.
  *
- * @package app\web\theme\components
+ * @package app\web\theme\module\components
  */
 abstract class BaseWidget extends Widget
 {
@@ -166,7 +166,7 @@ abstract class BaseWidget extends Widget
     }
 
     /**
-     * @return null|\app\web\theme\Module
+     * @return null|\app\web\theme\module\Module
      */
     protected function getThemeModule()
     {

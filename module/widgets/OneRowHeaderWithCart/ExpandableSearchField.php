@@ -1,6 +1,6 @@
 <?php
 
-namespace app\web\theme\widgets\OneRowHeaderWithCart;
+namespace app\web\theme\module\widgets\OneRowHeaderWithCart;
 
 use Yii;
 

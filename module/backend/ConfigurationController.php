@@ -1,15 +1,15 @@
 <?php
 
-namespace app\web\theme\backend;
+namespace app\web\theme\module\backend;
 
 use app\backend\components\BackendController;
 use app\backend\traits\BackendRedirect;
-use app\web\theme\models\BaseWidgetConfigurationModel;
-use app\web\theme\models\ThemeActiveWidgets;
-use app\web\theme\models\ThemeParts;
-use app\web\theme\models\ThemeVariation;
-use app\web\theme\models\ThemeWidgets;
-use app\web\theme\models\WidgetConfigurationModel;
+use app\web\theme\module\models\BaseWidgetConfigurationModel;
+use app\web\theme\module\models\ThemeActiveWidgets;
+use app\web\theme\module\models\ThemeParts;
+use app\web\theme\module\models\ThemeVariation;
+use app\web\theme\module\models\ThemeWidgets;
+use app\web\theme\module\models\WidgetConfigurationModel;
 use app\traits\LoadModel;
 use devgroup\TagDependencyHelper\ActiveRecordHelper;
 use Yii;

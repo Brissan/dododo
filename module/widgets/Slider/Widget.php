@@ -1,9 +1,9 @@
 <?php
 
-namespace app\web\theme\widgets\Slider;
+namespace app\web\theme\module\widgets\Slider;
 
 
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 use app\slider\SliderWidget;
 use yii\helpers\Html;
 

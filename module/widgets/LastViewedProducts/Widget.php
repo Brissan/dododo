@@ -1,10 +1,10 @@
 <?php
 
-namespace app\web\theme\widgets\LastViewedProducts;
+namespace app\web\theme\module\widgets\LastViewedProducts;
 
 use app\widgets\LastViewedProducts;
 use Yii;
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 
 class Widget extends BaseWidget
 {

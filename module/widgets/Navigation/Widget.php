@@ -6,10 +6,10 @@
  * Time: 14:55
  */
 
-namespace app\web\theme\widgets\Navigation;
+namespace app\web\theme\module\widgets\Navigation;
 
 use Yii;
-use app\web\theme\components\BaseWidget;
+use app\web\theme\module\components\BaseWidget;
 use yii\helpers\Json;
 
 class Widget extends BaseWidget
