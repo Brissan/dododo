@@ -19,7 +19,7 @@ class Widget extends BaseWidget
     public function widgetRun()
     {
         // this header needs this plugin
-        BootstrapHoverDropdown::register($this->view);
+        //BootstrapHoverDropdown::register($this->view);
 
         $order = Order::getOrder(false);
 
